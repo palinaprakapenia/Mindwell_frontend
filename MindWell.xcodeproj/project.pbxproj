@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1BACFE12ED3312F002ECEEF /* WatchedMeditation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BACFDF2ED3312F002ECEEF /* WatchedMeditation+CoreDataClass.swift */; };
+		D1BACFE22ED3312F002ECEEF /* WatchedMeditation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BACFE02ED3312F002ECEEF /* WatchedMeditation+CoreDataProperties.swift */; };
+		D1E4E5D92ECB508D0088BF0B /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = D1E4E5D82ECB508D0088BF0B /* SocketIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1ED50812E72EDB600138F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1ED50632E72EDB300138F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED506A2E72EDB300138F6F;
+			remoteInfo = MindWell;
+		};
+		D1ED508B2E72EDB700138F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1ED50632E72EDB300138F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ED506A2E72EDB300138F6F;
+			remoteInfo = MindWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1BACFDF2ED3312F002ECEEF /* WatchedMeditation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WatchedMeditation+CoreDataClass.swift"; path = "MindWell/WatchedMeditation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D1BACFE02ED3312F002ECEEF /* WatchedMeditation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WatchedMeditation+CoreDataProperties.swift"; path = "MindWell/WatchedMeditation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D1ED506B2E72EDB300138F6F /* MindWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1ED50802E72EDB600138F6F /* MindWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1ED508A2E72EDB700138F6F /* MindWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D1ED506D2E72EDB300138F6F /* MindWell */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MindWell;
+			sourceTree = "<group>";
+		};
+		D1ED50832E72EDB600138F6F /* MindWellTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MindWellTests;
+			sourceTree = "<group>";
+		};
+		D1ED508D2E72EDB700138F6F /* MindWellUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MindWellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1ED50682E72EDB300138F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E4E5D92ECB508D0088BF0B /* SocketIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED507D2E72EDB600138F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED50872E72EDB700138F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1ED50622E72EDB300138F6F = {
+			isa = PBXGroup;
+			children = (
+				D1BACFDF2ED3312F002ECEEF /* WatchedMeditation+CoreDataClass.swift */,
+				D1BACFE02ED3312F002ECEEF /* WatchedMeditation+CoreDataProperties.swift */,
+				D1ED506D2E72EDB300138F6F /* MindWell */,
+				D1ED50832E72EDB600138F6F /* MindWellTests */,
+				D1ED508D2E72EDB700138F6F /* MindWellUITests */,
+				D1ED506C2E72EDB300138F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1ED506C2E72EDB300138F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED506B2E72EDB300138F6F /* MindWell.app */,
+				D1ED50802E72EDB600138F6F /* MindWellTests.xctest */,
+				D1ED508A2E72EDB700138F6F /* MindWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1ED506A2E72EDB300138F6F /* MindWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1ED50942E72EDB700138F6F /* Build configuration list for PBXNativeTarget "MindWell" */;
+			buildPhases = (
+				D1ED50672E72EDB300138F6F /* Sources */,
+				D1ED50682E72EDB300138F6F /* Frameworks */,
+				D1ED50692E72EDB300138F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D1ED506D2E72EDB300138F6F /* MindWell */,
+			);
+			name = MindWell;
+			packageProductDependencies = (
+				D1E4E5D82ECB508D0088BF0B /* SocketIO */,
+			);
+			productName = MindWell;
+			productReference = D1ED506B2E72EDB300138F6F /* MindWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1ED507F2E72EDB600138F6F /* MindWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1ED50972E72EDB700138F6F /* Build configuration list for PBXNativeTarget "MindWellTests" */;
+			buildPhases = (
+				D1ED507C2E72EDB600138F6F /* Sources */,
+				D1ED507D2E72EDB600138F6F /* Frameworks */,
+				D1ED507E2E72EDB600138F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1ED50822E72EDB600138F6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D1ED50832E72EDB600138F6F /* MindWellTests */,
+			);
+			name = MindWellTests;
+			packageProductDependencies = (
+			);
+			productName = MindWellTests;
+			productReference = D1ED50802E72EDB600138F6F /* MindWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1ED50892E72EDB700138F6F /* MindWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1ED509A2E72EDB700138F6F /* Build configuration list for PBXNativeTarget "MindWellUITests" */;
+			buildPhases = (
+				D1ED50862E72EDB700138F6F /* Sources */,
+				D1ED50872E72EDB700138F6F /* Frameworks */,
+				D1ED50882E72EDB700138F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1ED508C2E72EDB700138F6F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D1ED508D2E72EDB700138F6F /* MindWellUITests */,
+			);
+			name = MindWellUITests;
+			packageProductDependencies = (
+			);
+			productName = MindWellUITests;
+			productReference = D1ED508A2E72EDB700138F6F /* MindWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1ED50632E72EDB300138F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D1ED506A2E72EDB300138F6F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D1ED507F2E72EDB600138F6F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D1ED506A2E72EDB300138F6F;
+					};
+					D1ED50892E72EDB700138F6F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D1ED506A2E72EDB300138F6F;
+					};
+				};
+			};
+			buildConfigurationList = D1ED50662E72EDB300138F6F /* Build configuration list for PBXProject "MindWell" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1ED50622E72EDB300138F6F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1E4E5D72ECB508D0088BF0B /* XCRemoteSwiftPackageReference "socket" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D1ED506C2E72EDB300138F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1ED506A2E72EDB300138F6F /* MindWell */,
+				D1ED507F2E72EDB600138F6F /* MindWellTests */,
+				D1ED50892E72EDB700138F6F /* MindWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1ED50692E72EDB300138F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED507E2E72EDB600138F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED50882E72EDB700138F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1ED50672E72EDB300138F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BACFE12ED3312F002ECEEF /* WatchedMeditation+CoreDataClass.swift in Sources */,
+				D1BACFE22ED3312F002ECEEF /* WatchedMeditation+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED507C2E72EDB600138F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ED50862E72EDB700138F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1ED50822E72EDB600138F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ED506A2E72EDB300138F6F /* MindWell */;
+			targetProxy = D1ED50812E72EDB600138F6F /* PBXContainerItemProxy */;
+		};
+		D1ED508C2E72EDB700138F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ED506A2E72EDB300138F6F /* MindWell */;
+			targetProxy = D1ED508B2E72EDB700138F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1ED50922E72EDB700138F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1ED50932E72EDB700138F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1ED50952E72EDB700138F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindWell/Preview Content\"";
+				DEVELOPMENT_TEAM = 73R6TVZ92P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.MindWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1ED50962E72EDB700138F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindWell/Preview Content\"";
+				DEVELOPMENT_TEAM = 73R6TVZ92P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.MindWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1ED50982E72EDB700138F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73R6TVZ92P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.MindWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindWell";
+			};
+			name = Debug;
+		};
+		D1ED50992E72EDB700138F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73R6TVZ92P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.MindWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindWell";
+			};
+			name = Release;
+		};
+		D1ED509B2E72EDB700138F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73R6TVZ92P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.MindWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindWell;
+			};
+			name = Debug;
+		};
+		D1ED509C2E72EDB700138F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73R6TVZ92P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = App.MindWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1ED50662E72EDB300138F6F /* Build configuration list for PBXProject "MindWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED50922E72EDB700138F6F /* Debug */,
+				D1ED50932E72EDB700138F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1ED50942E72EDB700138F6F /* Build configuration list for PBXNativeTarget "MindWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED50952E72EDB700138F6F /* Debug */,
+				D1ED50962E72EDB700138F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1ED50972E72EDB700138F6F /* Build configuration list for PBXNativeTarget "MindWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED50982E72EDB700138F6F /* Debug */,
+				D1ED50992E72EDB700138F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1ED509A2E72EDB700138F6F /* Build configuration list for PBXNativeTarget "MindWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1ED509B2E72EDB700138F6F /* Debug */,
+				D1ED509C2E72EDB700138F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1E4E5D72ECB508D0088BF0B /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1E4E5D82ECB508D0088BF0B /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E4E5D72ECB508D0088BF0B /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D1ED50632E72EDB300138F6F /* Project object */;
+}
